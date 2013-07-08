@@ -1,6 +1,5 @@
 <?php
 class BEA_TW_Base {
-	static $bea_tw_instance = null;
 	
 	
 	public static function activate() {
@@ -28,28 +27,25 @@ class BEA_TW_Base {
 	 * 
 	 */
 	public static function get_twitter_instance() {
-		self::load_sdk();
+		global $cb;
 		
 		$tw_infos = self::is_admin_ready();
 		if ( empty( $tw_infos ) ) {
 			return false;
 		}
 		
-		// Try to get static instantce before make new instanciation
-		if ( !empty( self::$bea_tw_instance ) ) {
-			return self::$bea_tw_instance;
-		}
+		self::load_sdk();
 		
 		try {
-			Codebird::setConsumerKey( $tw_infos['twitter_consumer_key'], $tw_infos['twitter_consumer_secret'] );
-			self::$bea_tw_instance = Codebird::getInstance();
-			self::$bea_tw_instance->setToken( $tw_infos['twitter_access_token'], $tw_infos['twitter_access_token_secret'] );
+			$cb = \Codebird\Codebird::getInstance();
+			$cb::setConsumerKey( $tw_infos['twitter_consumer_key'], $tw_infos['twitter_consumer_secret'] );
+			$cb->setToken( $tw_infos['twitter_access_token'], $tw_infos['twitter_access_token_secret'] );
 		} catch ( Exception $e ) {
 			_e( "Synchro error : ", 'bea-tw' ); 
 			echo $e->getMessage();
 		}
 		
-		return self::$bea_tw_instance;
+		return $cb;
 	}
 	
 	
