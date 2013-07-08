@@ -53,7 +53,7 @@ function _BEA_TW_load_files($dir, $files, $prefix = '') {
 _BEA_TW_load_files(BEA_TW_DIR . 'functions/', array());
 
 // Plugin client classes
-_BEA_TW_load_files(BEA_TW_DIR . 'classes/', array('main', 'plugin', 'widget'));
+_BEA_TW_load_files(BEA_TW_DIR . 'classes/', array('main','widget', 'base'));
 
 // Plugin admin classes
 if (is_admin()) {
@@ -61,14 +61,12 @@ if (is_admin()) {
 	_BEA_TW_load_files(BEA_TW_DIR . 'libraries/wordpress-settings-api-class-master/', array( 'class.settings-api' ) );
 }
 
-// Plugin activate/desactive hooks
-register_activation_hook(__FILE__, array('BEA_TW_Plugin', 'activate'));
-register_deactivation_hook(__FILE__, array('BEA_TW_Plugin', 'deactivate'));
 
 add_action('plugins_loaded', 'init_BEA_TW_plugin');
 function init_BEA_TW_plugin() {
 	// Client
 	new BEA_TW_Main();
+	new BEA_TW_Base();
 
 	// Admin
 	if (is_admin()) {
