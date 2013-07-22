@@ -5,6 +5,4 @@
 	self::$settings_api->show_navigation();
 	self::$settings_api->show_forms();
 	?>
-	
-	
 </div>

@@ -11,13 +11,15 @@ if ( isset( $title )  && !empty( $title ) ) {
 <ul>
 	<?php
 	foreach ( $twitter as $tweet ) : ?>
-		<li>
+		<li class="bea-tweets">
 			<?php
-		//	var_dump($tweet);
 			$text = isset( $tweet['text'] ) ? $tweet['text'] : '';
-			$text = isset( $tweet['text'] ) ? $tweet['text'] : '';
-			echo $text;
+			$user = ( isset( $tweet['user'] ) && is_array( $tweet['user'] ) ) ? $tweet['user'] : array();
+			$time_ago = isset( $tweet['time_ago'] ) ? $tweet['time_ago'] : '';
 			?>
+			<span class="bea-user-info">@<?php echo $user['screen_name']; ?></span>
+			<p><?php echo $text; ?></p>
+			<span class="bea-created-time"><?php echo $time_ago; ?> <?php _e( 'ago', 'bea-tw'); ?></span>
 		</li>
 	<?php endforeach; ?>
 </ul>
