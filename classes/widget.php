@@ -33,6 +33,7 @@ class BEA_TW_Widget extends WP_Widget {
 		}
 		
 		echo $before_widget;
+		$title = ( isset( $instance['title'] ) ) ? $instance['title'] : '';
 		
 		// Get the tpl with condition
 		$tpl =  BEA_TW_DIR . 'views/client/widget.tpl.php';
@@ -45,8 +46,7 @@ class BEA_TW_Widget extends WP_Widget {
 		include( $tpl );
 		
 		echo $after_widget;
-		
-		return true;
+
 	}
 	
 

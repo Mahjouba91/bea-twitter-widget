@@ -1,0 +1,347 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bea Twitter Widget\n"
+"POT-Creation-Date: 2013-07-23 09:09+0100\n"
+"PO-Revision-Date: 2013-07-23 09:09+0100\n"
+"Last-Translator: \n"
+"Language-Team: BeAPI <contact@beapi.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/base.php:46
+msgid "Synchro error : "
+msgstr "Erreur de synchronisation :"
+
+#: ../classes/base.php:169
+msgid "second(s)"
+msgstr "seconde(s)"
+
+#: ../classes/base.php:169
+msgid "minute"
+msgstr "minute"
+
+#: ../classes/base.php:169
+msgid "hour"
+msgstr "heure"
+
+#: ../classes/base.php:169
+msgid "day"
+msgstr "jour"
+
+#: ../classes/base.php:169
+msgid "week"
+msgstr "semaine"
+
+#: ../classes/base.php:169
+#, fuzzy
+msgid "month"
+msgstr "mois"
+
+#: ../classes/base.php:169
+msgid "year"
+msgstr "année"
+
+#: ../classes/base.php:169
+msgid "decade"
+msgstr "décénie"
+
+#: ../classes/widget.php:5
+msgid "Bea Twitter Widget"
+msgstr "Bea Twitter Widget"
+
+#: ../classes/widget.php:6
+msgid "Simply add a Twitter Widget"
+msgstr "Ajoute simplement le widget Twitter"
+
+#: ../classes/widget.php:75
+msgid "Twitter Widget"
+msgstr "Twitter Widget"
+
+#: ../classes/admin/settings.php:12
+msgid "Twitter widget"
+msgstr "Twitter widget"
+
+#: ../classes/admin/settings.php:40
+msgid "General features"
+msgstr "Général"
+
+#: ../classes/admin/settings.php:57
+msgid "Twitter consumer key"
+msgstr "Clé client Twitter"
+
+#: ../classes/admin/settings.php:64
+msgid "Twitter consumer secret"
+msgstr "Clé secrète Twitter"
+
+#: ../classes/admin/settings.php:71
+msgid "Twitter access token"
+msgstr "Access token Twitter"
+
+#: ../classes/admin/settings.php:78
+msgid "Twitter access token secret"
+msgstr "Access tocken secret Twitter"
+
+#: ../libraries/wordpress-settings-api-class-master/class.settings-api.php:342
+msgid "Browse"
+msgstr "Parcourir"
+
+#: ../libraries/wordpress-settings-api-class-master/class.settings-api.php:495
+msgid "No section available"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:24
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:45
+msgid "Basic Settings"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:25
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:46
+msgid "Basic Settings description"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:26
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:47
+msgid "Basic"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:30
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:51
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:31
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:52
+msgid "Advanced Settings description"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:35
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:56
+msgid "Other Settings"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:36
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:57
+msgid "Other Settings description"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:44
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:117
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:186
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:172
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:248
+msgid "Text Input"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:45
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:118
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:187
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:74
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:173
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:249
+msgid "Text input description"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:50
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:81
+msgid "HTML description"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:55
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:124
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:193
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:86
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:186
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:255
+msgid "Textarea Input"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:56
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:125
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:194
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:87
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:187
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:256
+msgid "Textarea description"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:61
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:62
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:130
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:199
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:92
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:192
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:261
+msgid "Checkbox"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:63
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:131
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:200
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:93
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:193
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:262
+msgid "Checkbox Label"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:68
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:136
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:205
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:116
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:198
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:267
+msgid "Radio Button"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:69
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:137
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:206
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:117
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:199
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:268
+msgid "A radio button"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:78
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:147
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:215
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:126
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:209
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:277
+msgid "Multile checkbox"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:79
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:148
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:216
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:127
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:210
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:278
+msgid "Multi checkbox description"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:90
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:160
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:227
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:138
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:222
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:289
+msgid "A Dropdown"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:91
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:161
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:228
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:139
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:223
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:290
+msgid "Dropdown description"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:101
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:170
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:237
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:149
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:232
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:299
+msgid "Password"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:102
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:171
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:238
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:150
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:233
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:300
+msgid "Password description"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:108
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:177
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:244
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:156
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:239
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:306
+msgid "File"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:109
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:178
+#: ../libraries/wordpress-settings-api-class-master/procedural-example.php:245
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:157
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:240
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:307
+msgid "File description"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:73
+msgid "Text Input (integer validation)"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:99
+msgid "Checkbox 1"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:100
+msgid "Checkbox 1 Description"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:102
+msgid "Checkbox 1 Label"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:106
+msgid "Metabox title"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:111
+msgid "HTML description 2"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:163
+msgid "File 2"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:164
+msgid "File 2 description"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:179
+msgid "WYSIWYG Label"
+msgstr ""
+
+#: ../libraries/wordpress-settings-api-class-master/settings-api.php:180
+msgid "WYSIWYG description"
+msgstr ""
+
+#: ../views/admin/main-settings.php:3
+msgid "Bea Twitter widget - Settings"
+msgstr "Bea Twitter widget - Paramètres"
+
+#: ../views/admin/widget.php:7
+msgid "Title"
+msgstr "Titre"
+
+#: ../views/admin/widget.php:12
+msgid "Screen name"
+msgstr "Compte twitter"
+
+#: ../views/admin/widget.php:17
+msgid "Number of tweets"
+msgstr "Nombre de tweets"
+
+#: ../views/admin/widget.php:23
+msgid "Exclude replies"
+msgstr "Exclure les réponses"
+
+#: ../views/admin/widget.php:27
+msgid "Keep tweets in database for X seconds"
+msgstr "Garder les tweets en base pendant X secondes"
+
+#: ../views/client/widget.tpl.php:19
+msgid "ago"
+msgstr ""

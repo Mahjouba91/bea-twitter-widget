@@ -64,6 +64,9 @@ if (is_admin()) {
 
 add_action('plugins_loaded', 'init_BEA_TW_plugin');
 function init_BEA_TW_plugin() {
+	
+	load_plugin_textdomain( 'bea-tw', false, basename( rtrim( dirname ( __FILE__ ), '/' ) ) . '/languages' );
+		
 	// Client
 	new BEA_TW_Main();
 	new BEA_TW_Base();

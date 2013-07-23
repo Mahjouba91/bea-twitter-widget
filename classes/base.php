@@ -128,7 +128,6 @@ class BEA_TW_Base {
 		// First check if the transient is up to date
 		$tweets = maybe_unserialize( get_transient( $transient_name ) );
 		if ( !empty( $tweets ) && is_array( $tweets ) ) {
-			echo "from transient";
 			return $tweets;
 		}
 		
@@ -137,7 +136,6 @@ class BEA_TW_Base {
 		if ( empty( $tweets ) || !is_array( $tweets ) ) {
 			return false;
 		}
-		echo "from api";
 		
 		// Set the transient
 		set_transient( $transient_name, maybe_serialize( $tweets ), (int) $transient_time );
@@ -168,7 +166,7 @@ class BEA_TW_Base {
 			return false;
 		}
 		
-		$periods = array( __("second", 'bea-tw' ), __("minute", 'bea-tw' ), __("hour", 'bea-tw' ), __("day", 'bea-tw' ), __("week", 'bea-tw' ), __("month", 'bea-tw' ), __("year", 'bea-tw' ), __("decade", 'bea-tw' ) );
+		$periods = array( __("second(s)", 'bea-tw' ), __("minute", 'bea-tw' ), __("hour", 'bea-tw' ), __("day", 'bea-tw' ), __("week", 'bea-tw' ), __("month", 'bea-tw' ), __("year", 'bea-tw' ), __("decade", 'bea-tw' ) );
 		$lengths = array("60","60","24","7","4.35","12","10");
 		
 		for( $j = 0; $seconds_ago >= $lengths[$j] && $j < count( $lengths ) -1 ; $j++ ) {
