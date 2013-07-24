@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Bea Twitter Widget\n"
-"POT-Creation-Date: 2013-07-23 09:09+0100\n"
-"PO-Revision-Date: 2013-07-23 09:09+0100\n"
+"POT-Creation-Date: 2013-07-24 09:26+0100\n"
+"PO-Revision-Date: 2013-07-24 09:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: BeAPI <contact@beapi.fr>\n"
 "MIME-Version: 1.0\n"
@@ -17,38 +17,61 @@ msgstr ""
 msgid "Synchro error : "
 msgstr "Erreur de synchronisation :"
 
-#: ../classes/base.php:169
-msgid "second(s)"
-msgstr "seconde(s)"
+#: ../classes/base.php:171
+msgid "second"
+msgstr "seconde"
 
-#: ../classes/base.php:169
+#: ../classes/base.php:172
+msgid "seconds"
+msgstr "secondes"
+
+#: ../classes/base.php:176
 msgid "minute"
 msgstr "minute"
 
-#: ../classes/base.php:169
+#: ../classes/base.php:177
+msgid "minutes"
+msgstr "minutes"
+
+#: ../classes/base.php:181
 msgid "hour"
 msgstr "heure"
 
-#: ../classes/base.php:169
-msgid "day"
-msgstr "jour"
+#: ../classes/base.php:182
+msgid "hours"
+msgstr "heure"
 
-#: ../classes/base.php:169
+#: ../classes/base.php:186
 msgid "week"
 msgstr "semaine"
 
-#: ../classes/base.php:169
-#, fuzzy
+#: ../classes/base.php:187
+msgid "weeks"
+msgstr "semaines"
+
+#: ../classes/base.php:191
 msgid "month"
 msgstr "mois"
 
-#: ../classes/base.php:169
+#: ../classes/base.php:192
+msgid "months"
+msgstr "mois"
+
+#: ../classes/base.php:196
 msgid "year"
 msgstr "année"
 
-#: ../classes/base.php:169
+#: ../classes/base.php:197
+msgid "years"
+msgstr "année"
+
+#: ../classes/base.php:201
 msgid "decade"
 msgstr "décénie"
+
+#: ../classes/base.php:202
+msgid "decades"
+msgstr "décénies"
 
 #: ../classes/widget.php:5
 msgid "Bea Twitter Widget"
@@ -345,3 +368,6 @@ msgstr "Garder les tweets en base pendant X secondes"
 #: ../views/client/widget.tpl.php:19
 msgid "ago"
 msgstr ""
+
+#~ msgid "day"
+#~ msgstr "jour"
