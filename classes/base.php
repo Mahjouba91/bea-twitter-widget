@@ -166,56 +166,19 @@ class BEA_TW_Base {
 			return false;
 		}
 		
-		$time = array(
-			array(
-				'period' => __("second", 'bea-tw' ),
-				'plural' => __("seconds", 'bea-tw' ),
-				'time' => "60"
-			),
-			array(
-				'period' => __("minute", 'bea-tw' ),
-				'plural' => __("minutes", 'bea-tw' ),
-				'time' => "60"
-			),
-			array(
-				'period' => __("hour", 'bea-tw' ),
-				'plural' => __("hours", 'bea-tw' ),
-				'time' => "24"
-			),
-			array(
-				'period' => __("week", 'bea-tw' ),
-				'plural' => __("weeks", 'bea-tw' ),
-				'time' => "4.35"
-			),
-			array(
-				'period' => __("month", 'bea-tw' ),
-				'plural' => __("months", 'bea-tw' ),
-				'time' => "12"
-			),
-			array(
-				'period' => __("year", 'bea-tw' ),
-				'plural' => __("years", 'bea-tw' ),
-				'time' => "10"
-			),
-			array(
-				'period' => __("decade", 'bea-tw' ),
-				'plural' => __("decades", 'bea-tw' ),
-			),
-		);
-		
-		
-		for( $j = 0; $seconds_ago >= $time[$j]['time'] && $j < count( $time ) - 2 ; $j++ ) {
-			$seconds_ago /= $time[$j]['time'];
-		}
-		
-		$seconds_ago = round($seconds_ago);
-		
-		if ( $seconds_ago != 1) {
-			$time_word = $time[$j]['plural'];
+		$string_time_ago = '';
+		if ( $seconds_ago < 60 ) {
+			$string_time_ago = sprintf( __('%ds', 'bea-tw'), $seconds_ago );
+		} elseif ( $seconds_ago < 60 * 60 ) {
+			$string_time_ago = sprintf( __('%dm', 'bea-tw'), round( $seconds_ago / 60 ) );
+		} elseif( $seconds_ago < ( 24 * 60 * 60 ) ) {
+			$string_time_ago = sprintf( __('%dh', 'bea-tw'), round( $seconds_ago / ( 60 * 60 ) ) );
 		} else {
-			$time_word = $time[$j]['period'];
+			$string_time_ago = sprintf( __('%dd', 'bea-tw'), round( $seconds_ago / ( 60 * 60 * 24 ) ) );
 		}
-		return $seconds_ago . ' ' . $time_word;
+		
+	
+		return $string_time_ago;
 		
 	}
 }

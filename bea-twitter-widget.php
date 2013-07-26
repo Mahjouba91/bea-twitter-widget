@@ -1,7 +1,7 @@
 <?php
 /*
  Plugin Name: BEA Twitter Widget
- Version: 0.1
+ Version: 1.0
  Plugin URI: https://github.com/benjaminniess/bea-twitter-widget
  Description: Simply add a widget twitter using the 1.1 auth API. 
  Author: Benjamin Niess
@@ -34,7 +34,7 @@ if ( !defined('ABSPATH') )
 	die('-1');
 
 // Plugin constants
-define('BEA_TW_VERSION', '0.1');
+define('BEA_TW_VERSION', '1.0');
 
 // Plugin URL and PATH
 define('BEA_TW_URL', plugin_dir_url ( __FILE__ ));
@@ -50,7 +50,7 @@ function _BEA_TW_load_files($dir, $files, $prefix = '') {
 }
 
 // Plugin functions
-_BEA_TW_load_files(BEA_TW_DIR . 'functions/', array());
+_BEA_TW_load_files(BEA_TW_DIR . 'functions/', array( 'api' ));
 
 // Plugin client classes
 _BEA_TW_load_files(BEA_TW_DIR . 'classes/', array('main','widget', 'base'));
