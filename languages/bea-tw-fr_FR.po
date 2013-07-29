@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Bea Twitter Widget\n"
-"POT-Creation-Date: 2013-07-24 09:26+0100\n"
-"PO-Revision-Date: 2013-07-24 09:27+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2013-07-29 11:20+0100\n"
+"PO-Revision-Date: 2013-07-29 11:26+0100\n"
+"Last-Translator: Benjamin Niess <bniess@beapi.fr>\n"
 "Language-Team: BeAPI <contact@beapi.fr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,60 +18,24 @@ msgid "Synchro error : "
 msgstr "Erreur de synchronisation :"
 
 #: ../classes/base.php:171
-msgid "second"
-msgstr "seconde"
+#, php-format
+msgid "%ds"
+msgstr "%ds"
 
-#: ../classes/base.php:172
-msgid "seconds"
-msgstr "secondes"
+#: ../classes/base.php:173
+#, php-format
+msgid "%dm"
+msgstr "%dm"
 
-#: ../classes/base.php:176
-msgid "minute"
-msgstr "minute"
+#: ../classes/base.php:175
+#, php-format
+msgid "%dh"
+msgstr "%dh"
 
 #: ../classes/base.php:177
-msgid "minutes"
-msgstr "minutes"
-
-#: ../classes/base.php:181
-msgid "hour"
-msgstr "heure"
-
-#: ../classes/base.php:182
-msgid "hours"
-msgstr "heure"
-
-#: ../classes/base.php:186
-msgid "week"
-msgstr "semaine"
-
-#: ../classes/base.php:187
-msgid "weeks"
-msgstr "semaines"
-
-#: ../classes/base.php:191
-msgid "month"
-msgstr "mois"
-
-#: ../classes/base.php:192
-msgid "months"
-msgstr "mois"
-
-#: ../classes/base.php:196
-msgid "year"
-msgstr "année"
-
-#: ../classes/base.php:197
-msgid "years"
-msgstr "année"
-
-#: ../classes/base.php:201
-msgid "decade"
-msgstr "décénie"
-
-#: ../classes/base.php:202
-msgid "decades"
-msgstr "décénies"
+#, php-format
+msgid "%dd"
+msgstr "%dj"
 
 #: ../classes/widget.php:5
 msgid "Bea Twitter Widget"
@@ -368,6 +332,48 @@ msgstr "Garder les tweets en base pendant X secondes"
 #: ../views/client/widget.tpl.php:19
 msgid "ago"
 msgstr ""
+
+#~ msgid "second"
+#~ msgstr "seconde"
+
+#~ msgid "seconds"
+#~ msgstr "secondes"
+
+#~ msgid "minute"
+#~ msgstr "minute"
+
+#~ msgid "minutes"
+#~ msgstr "minutes"
+
+#~ msgid "hour"
+#~ msgstr "heure"
+
+#~ msgid "hours"
+#~ msgstr "heure"
+
+#~ msgid "week"
+#~ msgstr "semaine"
+
+#~ msgid "weeks"
+#~ msgstr "semaines"
+
+#~ msgid "month"
+#~ msgstr "mois"
+
+#~ msgid "months"
+#~ msgstr "mois"
+
+#~ msgid "year"
+#~ msgstr "année"
+
+#~ msgid "years"
+#~ msgstr "année"
+
+#~ msgid "decade"
+#~ msgstr "décénie"
+
+#~ msgid "decades"
+#~ msgstr "décénies"
 
 #~ msgid "day"
 #~ msgstr "jour"

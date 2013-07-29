@@ -32,7 +32,6 @@ class BEA_TW_Widget extends WP_Widget {
 			return false;
 		}
 		
-		echo $before_widget;
 		$title = ( isset( $instance['title'] ) ) ? $instance['title'] : '';
 		
 		// Get the tpl with condition
@@ -44,8 +43,6 @@ class BEA_TW_Widget extends WP_Widget {
 		} 
 		
 		include( $tpl );
-		
-		echo $after_widget;
 
 	}
 	

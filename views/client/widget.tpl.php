@@ -3,6 +3,7 @@
 if ( !defined('ABSPATH') )
 	die('-1');
 
+echo $before_widget;
 echo $before_title . $title . $after_title;
 ?>
 <ul>
@@ -20,3 +21,4 @@ echo $before_title . $title . $after_title;
 		</li>
 	<?php endforeach; ?>
 </ul>
+<?php echo $after_widget;
