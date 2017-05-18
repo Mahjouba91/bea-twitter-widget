@@ -4,7 +4,7 @@ bea twitter widget
 Simply add a widget twitter using the 1.1 auth API. 
 
 How to install :
-1 : Create an application here https://dev.twitter.com/docs/api/1.1
+1 : Create an application here https://apps.twitter.com/app/new
 2 : Upload the plugin in your plugins folder and activate it
 3 : In your WP admin, fill-in the app fields in settings > twitter widget
 4 : Go to apparence > widgets and add the widget
